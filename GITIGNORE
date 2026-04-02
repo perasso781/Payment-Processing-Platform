@@ -1,0 +1,20 @@
+# Dependências - geradas pelo npm install, não precisam ir pro git
+node_modules/
+
+# Variáveis de ambiente - NUNCA suba isso, tem senhas e chaves secretas!
+.env
+
+# Logs gerados em produção
+logs/
+*.log
+
+# Coverage dos testes
+coverage/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor de código
+.vscode/
+.idea/
